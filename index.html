@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Avena em Pauta — blog do Projeto Vitrine com conteúdo sobre alimentação, rotina e sustentabilidade." />
+  <title>Avena em Pauta | Blog do Projeto Vitrine</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./estilo.css">
+</head>
+<body>
+  <div class="topline">Projeto Vitrine · edição especial sobre alimentação e sustentabilidade</div>
+
+  <header>
+    <div class="container header-main">
+      <div class="header-left">
+        <button class="header-icon" aria-label="Pesquisar">⌕</button>
+        <button class="header-icon" aria-label="Compartilhar">↗</button>
+      </div>
+
+      <a class="brand" href="#inicio">
+        <strong>AVENA</strong>
+        <span>em pauta</span>
+      </a>
+
+      <div class="header-right">
+        <a class="header-icon" href="#contato" aria-label="Contato">✉</a>
+        <button class="header-icon mobile-toggle" id="mobileToggle" aria-label="Abrir menu">☰</button>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div class="container nav-inner" id="navMenu">
+        <a href="#inicio">Capa</a>
+        <a href="#artigos">Artigos</a>
+        <a href="#destaque">Especial</a>
+        <a href="#sobre">Sobre a Avena</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <div class="breaking">
+    <div class="container breaking-inner">
+      <span class="breaking-label">Em destaque</span>
+      <span class="breaking-text">Como transformar escolhas simples em uma rotina mais prática, saborosa e consciente.</span>
+    </div>
+  </div>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-grid">
+        <article class="lead-story">
+          <div class="lead-image">
+            <img src="https://projeto-vitrine-avena.vercel.app/assets/avena-hero.png" alt="Embalagens Avena nos sabores clássica, maçã e maracujá">
+            <span class="lead-tag">Matéria de capa</span>
+          </div>
+          <div class="lead-content">
+            <h1>Comer bem também pode ser simples.</h1>
+            <p>Ideias práticas para incluir a bebida de aveia no café da manhã, nos lanches e em receitas do dia a dia sem transformar a rotina em uma lista de regras.</p>
+            <div class="post-meta">
+              <span>Por Equipe Avena</span>
+              <span>16 de junho de 2026</span>
+              <span>6 min de leitura</span>
+            </div>
+          </div>
+        </article>
+
+        <aside class="sidebar-stack">
+          <div class="side-card">
+            <div class="side-title">Nesta edição</div>
+            <div class="side-list">
+              <div class="side-item">
+                <span>Família</span>
+                <h3>Uma lancheira mais equilibrada sem complicação.</h3>
+              </div>
+              <div class="side-item">
+                <span>Sustentabilidade</span>
+                <h3>O que fazer com a embalagem depois do consumo?</h3>
+              </div>
+              <div class="side-item">
+                <span>Receitas</span>
+                <h3>Cinco formas de usar bebida de aveia durante a semana.</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="quote-card">
+            <blockquote>“Conteúdo bom não empurra uma venda. Ele ajuda, orienta e cria confiança.”</blockquote>
+            <p>Princípio editorial do blog Avena em Pauta.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="artigos">
+      <div class="container">
+        <div class="section-heading">
+          <h2>Três leituras para a sua rotina</h2>
+          <p>Conteúdos relevantes, claros e relacionados ao produto, como solicitado na proposta do Projeto Vitrine.</p>
+        </div>
+
+        <div class="stories-grid">
+          <article class="story">
+            <div class="story-image">
+              <img src="https://projeto-vitrine-avena.vercel.app/assets/avena-hero.png" alt="Linha adulta Avena nos sabores clássica, maçã e maracujá">
+            </div>
+            <div class="story-content">
+              <span class="category">Receitas e rotina</span>
+              <h3>5 maneiras de incluir bebida de aveia no dia a dia</h3>
+              <p>Café, vitaminas, panquecas, mingau e sobremesas: ideias simples para variar sem complicação.</p>
+              <div class="post-meta">
+                <span>16 jun. 2026</span>
+                <span>Equipe Avena</span>
+              </div>
+              <button class="read-more" data-article="1">Ler publicação completa →</button>
+            </div>
+          </article>
+
+          <article class="story">
+            <div class="story-image">
+              <img src="https://projeto-vitrine-avena.vercel.app/assets/avena-mini-boxes.png" alt="Caixinhas Avena Kids nos sabores maçã, clássica e maracujá">
+            </div>
+            <div class="story-content">
+              <span class="category">Família</span>
+              <h3>Como montar uma lancheira mais equilibrada</h3>
+              <p>Uma combinação prática de fruta, bebida, fonte de energia e variedade de cores e texturas.</p>
+              <div class="post-meta">
+                <span>14 jun. 2026</span>
+                <span>Equipe Avena</span>
+              </div>
+              <button class="read-more" data-article="2">Ler publicação completa →</button>
+            </div>
+          </article>
+
+          <article class="story">
+            <div class="story-image">
+              <img src="https://projeto-vitrine-avena.vercel.app/assets/avena-hero.png" alt="Embalagens recicláveis da bebida vegetal Avena">
+            </div>
+            <div class="story-content">
+              <span class="category">Sustentabilidade</span>
+              <h3>Pequenas atitudes que fazem grande diferença</h3>
+              <p>Descarte correto, redução de desperdício e compromissos ambientais que precisam sair do discurso.</p>
+              <div class="post-meta">
+                <span>11 jun. 2026</span>
+                <span>Equipe Avena</span>
+              </div>
+              <button class="read-more" data-article="3">Ler publicação completa →</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section editorial" id="destaque">
+      <div class="container editorial-grid">
+        <div class="editorial-image">
+          <img src="https://projeto-vitrine-avena.vercel.app/assets/avena-mini-boxes.png" alt="Linha Avena Kids com embalagens coloridas e identidade do projeto">
+        </div>
+        <div class="editorial-copy" id="sobre">
+          <span class="category">Especial Avena</span>
+          <h2>Uma marca precisa ter algo a dizer.</h2>
+          <p>A Avena não quer aparecer apenas como uma embalagem na prateleira. O blog foi pensado para explicar usos, inspirar receitas, conversar com famílias e tornar a sustentabilidade mais concreta.</p>
+          <div class="editorial-note">Aqui, o produto aparece dentro de histórias e soluções reais — não apenas como propaganda.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container newsletter">
+        <div>
+          <h2>Receba a próxima edição.</h2>
+          <p>Cadastre seu e-mail para receber novidades, receitas e conteúdos da Avena.</p>
+        </div>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" required placeholder="Digite seu melhor e-mail">
+          <button type="submit">Quero receber</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="contato">
+      <div class="container interaction-grid">
+        <div class="interaction-info">
+          <span class="category">Espaço de interação</span>
+          <h2>Sua opinião também entra em pauta.</h2>
+          <p>Comente uma publicação, sugira uma receita ou conte qual sabor da Avena você gostaria de experimentar.</p>
+          <div class="socials">
+            <a href="#">Instagram</a>
+            <a href="#">WhatsApp</a>
+            <a href="mailto:contato@avena.com.br">E-mail</a>
+          </div>
+        </div>
+
+        <form class="comment-form" id="commentForm">
+          <div class="form-row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input id="nome" required placeholder="Seu nome">
+            </div>
+            <div class="field">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" required placeholder="voce@email.com">
+            </div>
+          </div>
+          <div class="field">
+            <label for="assunto">Assunto</label>
+            <input id="assunto" required placeholder="Sobre qual publicação você quer falar?">
+          </div>
+          <div class="field">
+            <label for="comentario">Comentário</label>
+            <textarea id="comentario" required placeholder="Escreva sua opinião, sugestão ou pergunta..."></textarea>
+          </div>
+          <button class="submit-btn" type="submit">Publicar comentário</button>
+          <div class="success" id="commentSuccess">Comentário registrado com sucesso para demonstração do projeto.</div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">AVENA</div>
+          <p style="margin-top:14px;max-width:520px">Blog desenvolvido para o Projeto Vitrine, com identidade visual própria, publicações, imagens, interação, contato e créditos.</p>
+        </div>
+        <div>
+          <h4>Seções</h4>
+          <div class="footer-links">
+            <a href="#inicio">Capa</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#destaque">Especial</a>
+            <a href="#contato">Contato</a>
+          </div>
+        </div>
+        <div>
+          <h4>Equipe</h4>
+          <div class="footer-links">
+            <a href="#">Projeto Vitrine</a>
+            <a href="#">Avena</a>
+            <a href="mailto:contato@avena.com.br">contato@avena.com.br</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">Avena em Pauta © 2026 · Trabalho escolar desenvolvido para o Projeto Vitrine.</div>
+    </div>
+  </footer>
+
+  <div class="modal" id="articleModal">
+    <article class="modal-panel">
+      <button class="modal-close" id="modalClose" aria-label="Fechar">×</button>
+      <span class="category" id="modalCategory"></span>
+      <h2 id="modalTitle"></h2>
+      <div class="post-meta" id="modalMeta"></div>
+      <div id="modalBody"></div>
+    </article>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
